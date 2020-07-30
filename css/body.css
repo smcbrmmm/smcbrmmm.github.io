@@ -60,8 +60,9 @@
 }
 
 
-#contentButton , .card {
+#contentButton ,#buffet-text ,#rubsarb-text {
     animation: color-change 2s infinite;
+    font-family: Mitr;
   }
   
   @keyframes color-change {
