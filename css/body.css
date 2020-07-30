@@ -15,47 +15,15 @@
     margin: 50%;
 }
 
-.card {
-    height: 200px;
-    background-color: #3A3F58;
-    text-align: center;
-  }
-.card-monday {
-    display: none;
-  }
-.card-tuesday {
-      display: none;
-  }
-.card-wednesday {
-    display: none;
-  }
-.card-thursday {
-      display: none;
-  }
-.card-friday {
-    display: none;
-  }
-.card-os {
-    display: none;
-  }
-.card-sa {
-      display: none;
-  }
-.card-seminar {
-    display: none;
-  }
-.card-ip {
-      display: none;
-  }
-.card-unix {
-    display: none;
-  }  
-.card-english {
-    display: none;
-    }
-.card-webtech {
+#mon ,#tue,#wed,#thu,#fri{
   display: none;
-    }
+  text-align: center;
+}
+
+#semi,#web,#uni,#eng,#os,#ip,#sa {
+  text-align: center;
+  display: none;
+}
   
 .container .button {
     font-family: Consolas,monaco,monospace;
