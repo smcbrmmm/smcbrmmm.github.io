@@ -1,0 +1,126 @@
+.text {
+    font-family: Consolas;
+}
+
+#text {
+    font-family: Consolas;
+}
+
+#time-text {
+    text-align: center;
+}
+
+#study {
+    font-family: Mitr;
+    margin: 50%;
+}
+
+.card {
+    height: 200px;
+    background-color: #3A3F58;
+    text-align: center;
+  }
+.card-monday {
+    display: none;
+  }
+.card-tuesday {
+      display: none;
+  }
+.card-wednesday {
+    display: none;
+  }
+.card-thursday {
+      display: none;
+  }
+.card-friday {
+    display: none;
+  }
+.card-os {
+    display: none;
+  }
+.card-sa {
+      display: none;
+  }
+.card-seminar {
+    display: none;
+  }
+.card-ip {
+      display: none;
+  }
+.card-unix {
+    display: none;
+  }  
+.card-english {
+    display: none;
+    }
+.card-webtech {
+  display: none;
+    }
+  
+.container .button {
+    font-family: Consolas,monaco,monospace;
+}
+
+#mainBody #contentButton{
+    background-color: #3A3F58;
+}
+
+#game-text {
+    font-family: Mitr;
+}
+
+
+
+#contentButton:hover{
+    text-decoration: none;
+}
+
+
+#gameButton{
+    background-color:#3A3F58 ;
+}
+
+.text.text-game:hover{
+    text-decoration: wheat;
+    
+}
+
+.rb6-pic {
+    display: block;
+    position: relative;
+    object-fit: contain;
+}
+
+
+#contentButton , .card {
+    animation: color-change 2s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: white; }
+    50% { color: #3A3F58; }
+    100% { color: white; }
+  }
+
+  #Monday-btn {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 20%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  #Tuesday-btn {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 20%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+  }
+  
