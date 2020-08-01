@@ -20,6 +20,7 @@
   text-align: center;
 }
 
+
 #semi,#web,#uni,#eng,#os,#ip,#sa {
   text-align: center;
   display: none ;
@@ -62,7 +63,6 @@
 
 #contentButton ,#buffet-text ,#rubsarb-text {
     animation: color-change 2s infinite;
-    font-family: Mitr;
   }
   
   @keyframes color-change {
